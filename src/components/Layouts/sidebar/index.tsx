@@ -29,14 +29,7 @@ export function Sidebar() {
     NAV_DATA.some((section) => {
       return section.items.some((item) => {
         return item.items.some((subItem) => {
-          if (subItem.url === pathname) {
-            if (!expandedItems.includes(item.title)) {
-              toggleExpanded(item.title);
-            }
-
-            // Break the loop
-            return true;
-          }
+          
         });
       });
     });
