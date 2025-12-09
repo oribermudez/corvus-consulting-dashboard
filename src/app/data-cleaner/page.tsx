@@ -67,6 +67,7 @@ export default function DataCleanerPage() {
           <CleanResults
             data={result.cleanedRows}
             metrics={result.metrics}
+            onReset={() => setResult(null)}
           />
 
           <EmissionsTable data={result.cleanedRows as any} />
