@@ -49,10 +49,6 @@ export default function DataCleanerPage() {
 
   return (
     <div className="p-6 space-y-6">
-      <h1 className="text-body-2xlg font-bold text-dark dark:text-white">
-        Emissions Data Cleaner
-      </h1>
-
       <p className="text-sm text-dark-6 dark:text-dark-6">
         Upload a CSV with facility emissions. The tool will clean the data,
         standardize units, and show a clear summary of the changes.
